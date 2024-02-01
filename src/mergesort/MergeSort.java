@@ -95,5 +95,19 @@ public class MergeSort {
   
         System.out.println("\nSorted array"); 
         printArray(arr); 
+        
+        System.out.println("\nSorted array");
+        System.out.println(Average.avgArray(arr));
     } 
+    
+    /*public static int avgArray(int arr[]) {
+        int sum = 0; 
+ 
+        for (int i = 0; i < arr.length; i++)  
+        sum += arr[i]; 
+ 
+        int average = sum / arr.length; 
+        
+        return average;
+    }*/
 }
